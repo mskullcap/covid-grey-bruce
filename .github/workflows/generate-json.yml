@@ -7,7 +7,7 @@ defaults:
 on:
   workflow_dispatch:
     schedule:
-      - cron: "30 20,21,22 * * 1-6"
+      - cron: "30 20,21,22 * * 1-7"
 
 jobs:
   build:
@@ -20,7 +20,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+        with:
+          ref: master
+     - uses: actions/setup-node@v1
         with:
           node-version: '14'
       - run: npm install
