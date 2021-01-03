@@ -126,7 +126,7 @@
 
   onMount(async () => {
     const [dataResponse, newCasesSpec, bubbleSpec, topoJson, activeCasesSpec] = await Promise.all([
-      fetch("https://raw.githubusercontent.com/mskullcap/covid-kincardine/main/public/greybruce.json"),
+      fetch("https://raw.githubusercontent.com/mskullcap/covid-grey-bruce/master/ui/public/greybruce.json"),
       fetch("new_cases_by_day.json"),
       fetch("bubble_chart.json"),
       fetch("greybruce.topojson"),
