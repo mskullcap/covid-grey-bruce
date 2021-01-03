@@ -5,10 +5,6 @@ on:
     schedule:
       - cron: "30 20,21,22 * * 1-6"
 
-defaults:
-  run:
-    working-directory: workflow
-
 jobs:
   build:
 
