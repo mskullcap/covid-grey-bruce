@@ -129,7 +129,7 @@
       fetch("https://raw.githubusercontent.com/mskullcap/covid-grey-bruce/master/ui/public/greybruce.json"),
       fetch("new_cases_by_day.json"),
       fetch("bubble_chart.json"),
-      fetch("greybruce.topojson"),
+      fetch("greybruce.topo.json"),
       fetch("active_cases.json")
     ]);
 
