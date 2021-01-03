@@ -2,8 +2,8 @@ name: Generate JSON
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "30 20,21,22 * * 1-6"
+    schedule:
+      - cron: "30 20,21,22 * * 1-6"
 
 defaults:
   run:
@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: main
+          ref: master
       - uses: actions/setup-node@v1
         with:
           node-version: '14'
