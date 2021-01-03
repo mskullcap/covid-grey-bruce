@@ -12,3 +12,4 @@ Covid-19 is on everyone's minds, and so I thought I would build a dashboard that
 (Grey & Bruce counties in Ontario, Canada) covid stats.  My data for the dashboard comes from the 
 [Grey-Bruce Health Unit](https://www.publichealthgreybruce.on.ca/).
 
+### See it in action here: https://gbhstrong.mysterious.cloud/
