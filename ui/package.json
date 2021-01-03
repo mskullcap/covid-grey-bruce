@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-svelte": "^3.4.1",
+    "snowpack": "next",
+    "svelte": "^3.31.1"
+  },
+  "dependencies": {
+    "dateformat": "^4.4.1"
+  }
+}

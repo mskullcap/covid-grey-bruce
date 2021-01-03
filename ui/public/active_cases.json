@@ -1,0 +1,143 @@
+{
+  "config": {
+    "background": "null",
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "width": "container",
+  "height": 600,
+  "data": {
+    "values": "{{topoJson}}",
+    "format": {
+      "type": "topojson",
+      "feature": "MUNICIPAL_BOUNDARY_LOWER_AND_SINGLE_TIER"
+    }
+  },
+  "transform": [
+    {
+      "lookup": "properties.NAME",
+      "from": {
+        "data": {
+          "values": "{{values}}"
+        },
+        "key": "Municipality",
+        "fields": [
+          "Total Cases",
+          "Municipality",
+          "New Cases",
+          "Active Cases"
+        ],
+        "as": [
+          "Total Cases",
+          "Municipality",
+          "New Cases",
+          "Active Cases"
+        ]
+      }
+    },
+    {
+      "calculate": "geoArea(null, datum)",
+      "as": "area"
+    },
+    {
+      "calculate": "geoCentroid(null, datum)",
+      "as": "centroid"
+    },
+    {
+      "filter": "datum.Municipality != null"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "geoshape",
+        "stroke": "white"
+      },
+      "encoding": {
+        "stroke": {
+          "value": "white",
+          "condition": {
+            "test": "{{test}}",
+            "value": "lightgray"
+          }
+        },
+        "color": {
+          "field": "Active Cases",
+          "type": "quantitative",
+          "scale": {
+            "scheme": "lightgreyteal"
+          },
+          "condition": {
+            "test": "{{test}}",
+            "value": "#FFF"
+          },
+          "legend": {
+            "orient": "top-right"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Municipality"
+          },
+          {
+            "field": "Total Cases"
+          },
+          {
+            "field": "New Cases"
+          },
+          {
+            "field": "Active Cases"
+          },
+          {
+            "field": "area"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 9
+      },
+      "encoding": {
+        "opacity": {
+          "value": 1.0,
+          "condition": {
+            "test": "{{test}}",
+            "value": 0.2
+          }
+        },
+        "longitude": {
+          "field": "centroid.0",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "centroid.1",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "Municipality",
+          "type": "nominal",
+          "condition": {
+            "test": "datum.Municipality == 'ARRAN-ELDERSLIE' || datum.area < 0.0000005 && datum.Municipality != 'HANOVER'"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Municipality"
+          },
+          {
+            "field": "Total Cases"
+          },
+          {
+            "field": "New Cases"
+          },
+          {
+            "field": "Active Cases"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "config": {
+    "background": "null"
+  },
+  "height": 180,
+  "width": "container",
+  "autosize": {
+    "type": "fit-x",
+    "contains": "padding"
+  },
+  "data": {
+    "values": "{{values}}"
+  },
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "title": false,
+      "scale": {
+        "domain": [
+          "{{startDate}}",
+          "{{endDate}}"
+        ]
+      }
+    },
+    "y": {
+      "field": "Municipality",
+      "type": "quantitative",
+      "New Cases": false,
+      "aggregate": "count",
+      "scale": {
+        "domain": [
+          0,
+          "{{maxCases}}"
+        ]
+      }
+    },
+    "size": {
+      "value": 3
+    },
+    "tooltip": [
+      {
+        "field": "Date",
+        "type": "temporal"
+      },
+      {
+        "field": "Municipality",
+        "aggregate": "count",
+        "title": "Total Cases"
+      }
+    ]
+  }
+}

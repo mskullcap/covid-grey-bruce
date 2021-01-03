@@ -1,0 +1,89 @@
+{
+  "config": {
+    "background": "null"
+  },
+  "height": "1100",
+  "width": "container",
+  "data": {
+    "values": "{{values}}",
+    "format": {
+      "parse": {
+        "Date": "utc:'%Y-%m-%d'"
+      }
+    }
+  },
+  "mark": {
+    "type": "circle",
+    "clip": true
+  },
+  "encoding": {
+    "y": {
+      "field": "Date",
+      "type": "temporal",
+      "timeUnit": {
+        "unit": "yearmonthdate",
+        "utc": false
+      },
+      "title": false,
+      "scale": {
+        "domain": "{{dateDomain}}"
+      },
+      "axis": {
+        "grid": true,
+        "format": "%b %d"
+      }
+    },
+    "x": {
+      "field": "Municipality",
+      "title": false,
+      "scale": {
+        "padding": 200
+      },
+      "axis": {
+        "orient": "top"
+      }
+    },
+    "size": {
+      "field": "Municipality",
+      "aggregate": "count",
+      "title": "New Cases",
+      "scale": {
+        "range": [
+          0,
+          1800
+        ],
+        "domain": "{{municipalityDomain}}"
+      },
+      "legend": {
+        "tickCount": 4,
+        "title": false,
+        "orient": "top"
+      }
+    },
+    "color": {
+      "field": "Municipality",
+      "legend": false
+    },
+    "opacity": {
+      "value": 0.9,
+      "condition": {
+        "test": "{{test}}",
+        "value": 0.15
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Date",
+        "type": "temporal"
+      },
+      {
+        "field": "Municipality"
+      },
+      {
+        "field": "Municipality",
+        "aggregate": "count",
+        "title": "New Cases"
+      }
+    ]
+  }
+}
