@@ -1,5 +1,9 @@
 name: Generate JSON
 
+defaults:
+  run:
+    working-directory: workflow
+
 on:
   workflow_dispatch:
     schedule:
