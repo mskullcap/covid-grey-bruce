@@ -21,7 +21,7 @@
     38,
     "2020-03-26",
     null,
-    "2021-01-02"
+    "2021-01-03"
   ],
   [
     2,
@@ -5575,7 +5575,7 @@
     "Grey Highlands",
     null,
     null,
-    null,
+    "2021-01-03",
     null,
     null
   ],
@@ -5587,7 +5587,7 @@
     "Grey Highlands",
     null,
     null,
-    null,
+    "2021-01-03",
     null,
     null
   ],
@@ -5599,7 +5599,7 @@
     "Grey Highlands",
     null,
     null,
-    null,
+    "2021-01-03",
     null,
     null
   ],
@@ -5947,7 +5947,7 @@
     "Grey Highlands",
     null,
     null,
-    null,
+    "2021-01-03",
     null,
     null
   ],
@@ -6072,14 +6072,14 @@
     null
   ],
   [
-    44323,
+    507,
     "2021-01-02",
     "M",
     "60 to 69",
     "Blue Mountains",
     null,
     null,
-    null,
+    "2021-01-03",
     null,
     null
   ],
@@ -6209,6 +6209,42 @@
     "M",
     "40 to 49",
     "Arran-Elderslie",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    519,
+    "2021-01-02",
+    "F",
+    "10 to 19",
+    "Huron-Kinloss",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    520,
+    "2021-01-03",
+    "F",
+    "10 to 19",
+    "West Grey",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    521,
+    "2021-01-03",
+    "F",
+    "50 to 59",
+    "West Grey",
     null,
     null,
     null,
