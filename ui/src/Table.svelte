@@ -6,7 +6,6 @@
 
 <style>
     table {
-        font-size: 0.7em;
     }
 
     th {
@@ -30,7 +29,7 @@
 </style>
 
 {#if rows.length > 1}
-<table>
+<table class="f6">
   <thead>
     <tr class="striped--light-gray">
       {#each rows[0] as heading}
