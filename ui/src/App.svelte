@@ -239,13 +239,13 @@
     {#if casesByAgeRange}
       <hr>
       <h3>Cases by age range{municipality == "All" ? "" : ": " + municipality }</h3>
-      <Table rows={casesByAgeRange}/>
+      <Table rows={casesByAgeRange} highlight={r => r[3] > 0} />
     {/if}
 
     {#if casesBySex}
       <hr>
       <h3>Cases by sex{municipality == "All" ? "" : ": " + municipality }</h3>
-      <Table rows={casesBySex}/>
+      <Table rows={casesBySex} highlight={r => r[3] > 0} />
     {/if}
 
     {#if casesByDate}
