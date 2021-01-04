@@ -153,17 +153,21 @@
 <svelte:window bind:innerWidth={width} />
 
 <main class="App mw9 mw8-ns center pa3 ph5-ns lh-copy">
-  <h1>Grey Bruce Covid</h1>
+  <div class="flex items-center">
+    <div class="flex-grow-1">
+      <h1 class="mv0">Grey Bruce Covid</h1>
+    </div>
+    <div class="glow o-20" title="The source code for this project is available on GitHub.">
+      <a href="https://github.com/mskullcap/covid-grey-bruce">
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@v4/icons/github.svg" />
+      </a>
+    </div>
+  </div>
 
   {#if c19}
-    <h4>Updated: {c19.endDate}</h4>
+    <h4 class="mv1">Updated: {c19.endDate}</h4>
   {/if}
 
-  <p>
-    I created this notebook so I could easily share the state of covid-19 infections where I
-    live with friends and family. The data was provided by the <a href="https://www.publichealthgreybruce.on.ca/">Grey Bruce Health Unit</a>
-    (thank you, GBHU!) and is updated weekdays around 4pm EST.
-  </p>
   {#if c19}
     <p>
       Select a municipality to get a focussed view relevant to that region, or leave it set to "All Municipalities"
@@ -176,7 +180,7 @@
       {/each}
     </select> <button on:click={() => setMuni("All")}>Reset</button>
 
-    <h2>Cases for {municipality == "All" ? "all municipalities" : "the municipality of " + municipality }</h2>
+    <h2 class="mt4">Cases for {municipality == "All" ? "all municipalities" : "the municipality of " + municipality }</h2>
 
     <table>
       <tr>
@@ -250,4 +254,18 @@
       <Table rows={casesByDate}/>
     {/if}
   {/if}
+  <div class="f6 mt5">
+    <hr>
+    <p>
+      I created this notebook so I could easily share the state of covid-19 infections where I
+      live with friends and family. The data was provided by the <a href="https://www.publichealthgreybruce.on.ca/">Grey Bruce Health Unit</a>
+      (thank you, GBHU!) and is updated weekdays around 4pm EST.
+    </p>
+    <p>
+      Note: that there may occasionally be discrepancies
+      between what is reported on the <a href="https://www.publichealthgreybruce.on.ca/">GBHU site</a> and what is shown see here.  Unfortunately the mismatch is
+      is due to data integrity issues in the spreadsheet provided by the GBHU.  The issues seem to resolve in a day or
+      two.
+    </p>
+  </div>
 </main>
