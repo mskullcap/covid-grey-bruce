@@ -233,19 +233,19 @@
     {#if casesByMunicipality}
       <hr>
       <h3>Cases per municipality{municipality == "All" ? "" : ": " + municipality }</h3>
-      <Table rows={casesByMunicipality} highlight={r => r[3] > 0} fade={ r => municipality !== "All" && r[3] === 0}/>
+      <Table rows={casesByMunicipality} highlight={r => r[3] > 0} fade={ r => municipality !== "All" && r[0] != municipality}/>
     {/if}
 
     {#if casesByAgeRange}
       <hr>
       <h3>Cases by age range{municipality == "All" ? "" : ": " + municipality }</h3>
-      <Table rows={casesByAgeRange} highlight={r => r[3] > 0} fade={ r => municipality !== "All" && r[3] === 0}/>
+      <Table rows={casesByAgeRange} highlight={r => r[3] > 0}/>
     {/if}
 
     {#if casesBySex}
       <hr>
       <h3>Cases by sex{municipality == "All" ? "" : ": " + municipality }</h3>
-      <Table rows={casesBySex} highlight={r => r[3] > 0} fade={ r => municipality !== "All" && r[3] === 0}/>
+      <Table rows={casesBySex} highlight={r => r[3] > 0}/>
     {/if}
 
     {#if casesByDate}
