@@ -1,4 +1,4 @@
-name: Generate JSON
+name: Download JSON
 
 defaults:
   run:
