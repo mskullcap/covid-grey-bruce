@@ -11,12 +11,12 @@
     "values": "{{topoJson}}",
     "format": {
       "type": "topojson",
-      "feature": "MUNICIPAL_BOUNDARY_LOWER_AND_SINGLE_TIER"
+      "feature": "Municipal_Boundary_-_Lower_and_Single_Tier"
     }
   },
   "transform": [
     {
-      "lookup": "properties.NAME",
+      "lookup": "properties.MUNICIPAL_NAME_SHORTFORM",
       "from": {
         "data": {
           "values": "{{values}}"
@@ -88,9 +88,6 @@
           },
           {
             "field": "Active Cases"
-          },
-          {
-            "field": "area"
           }
         ]
       }
