@@ -7,7 +7,7 @@ defaults:
 on:
   workflow_dispatch:
     schedule:
-      - cron: "30 20,21,22 * * 1-7"
+      - cron: '30 20,21,22 * * 1-7'
 
 jobs:
   build:
