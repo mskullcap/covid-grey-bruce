@@ -21,7 +21,7 @@
     38,
     "2020-03-26",
     null,
-    "2021-01-04"
+    "2021-01-05"
   ],
   [
     2,
@@ -5779,7 +5779,7 @@
     "Owen Sound",
     null,
     null,
-    null,
+    "2021-01-05",
     null,
     null
   ],
@@ -5839,7 +5839,7 @@
     "Blue Mountains",
     null,
     null,
-    null,
+    "2021-01-05",
     null,
     null
   ],
@@ -5875,7 +5875,7 @@
     "Southgate",
     null,
     null,
-    null,
+    "2021-01-05",
     null,
     null
   ],
@@ -5887,7 +5887,7 @@
     "Southgate",
     null,
     null,
-    null,
+    "2021-01-05",
     null,
     null
   ],
@@ -5959,7 +5959,7 @@
     "West Grey",
     null,
     null,
-    null,
+    "2021-01-05",
     null,
     null
   ],
@@ -6103,7 +6103,7 @@
     "Blue Mountains",
     null,
     null,
-    null,
+    "2021-01-05",
     null,
     null
   ],
@@ -6168,7 +6168,7 @@
     null
   ],
   [
-    516,
+    515,
     "2021-01-02",
     "F",
     "30 to 39",
@@ -6199,7 +6199,7 @@
     "Southgate",
     null,
     null,
-    null,
+    "2021-01-05",
     null,
     null
   ],
@@ -6352,6 +6352,54 @@
     "2021-01-04",
     "M",
     "50 to 59",
+    "Owen Sound",
+    null,
+    null,
+    "2021-01-04",
+    null,
+    null
+  ],
+  [
+    531,
+    "2021-01-05",
+    "F",
+    "20 to 29",
+    "Owen Sound",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    532,
+    "2021-01-05",
+    "M",
+    "40 to 49",
+    "West Grey",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    533,
+    "2021-01-05",
+    "F",
+    "60 to 69",
+    "Hanover",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    534,
+    "2021-01-05",
+    "F",
+    "20 to 29",
     "Owen Sound",
     null,
     null,
