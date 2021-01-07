@@ -5,9 +5,8 @@ defaults:
     working-directory: workflow
 
 on:
-  workflow_dispatch:
-    schedule:
-      - cron: '30 20,21,23 * * 0-6'
+  schedule:
+    - cron: '30 20,21,23 * * 0-6'
 
 jobs:
   build:
