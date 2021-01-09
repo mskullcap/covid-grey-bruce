@@ -21,7 +21,7 @@
     40,
     "2020-03-26",
     null,
-    "2021-01-08"
+    "2021-01-09"
   ],
   [
     2,
@@ -5827,7 +5827,7 @@
     "Neyaashiinigmiing",
     null,
     null,
-    null,
+    "2021-01-09",
     null,
     null
   ],
@@ -5899,7 +5899,7 @@
     "Blue Mountains",
     null,
     null,
-    null,
+    "2021-01-09",
     null,
     null
   ],
@@ -5924,6 +5924,18 @@
     null,
     null,
     "2021-01-08",
+    null,
+    null
+  ],
+  [
+    494,
+    "2021-01-01",
+    "M",
+    "30 to 39",
+    "Grey Highlands",
+    null,
+    null,
+    "2021-01-09",
     null,
     null
   ],
@@ -6691,7 +6703,7 @@
     "South Bruce",
     null,
     null,
-    null,
+    "2021-01-09",
     null,
     null
   ],
@@ -6977,6 +6989,78 @@
     "M",
     "40 to 49",
     "Southgate",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    583,
+    "2021-01-09",
+    "M",
+    "60 to 69",
+    "Owen Sound",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    584,
+    "2021-01-09",
+    "M",
+    "40 to 49",
+    "Brockton",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    585,
+    "2021-01-09",
+    "F",
+    "20 to 29",
+    "West Grey",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    586,
+    "2021-01-09",
+    "M",
+    "20 to 29",
+    "West Grey",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    587,
+    "2021-01-09",
+    "M",
+    "40 to 49",
+    "Southgate",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    588,
+    "2021-01-09",
+    "M",
+    "50 to 59",
+    "South Bruce",
     null,
     null,
     null,
