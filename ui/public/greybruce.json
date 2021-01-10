@@ -21,7 +21,7 @@
     40,
     "2020-03-26",
     null,
-    "2021-01-09"
+    "2021-01-10"
   ],
   [
     2,
@@ -5911,7 +5911,7 @@
     "Chatsworth",
     null,
     null,
-    null,
+    "2021-01-10",
     null,
     null
   ],
@@ -6139,7 +6139,7 @@
     "West Grey",
     null,
     null,
-    null,
+    "2021-01-10",
     null,
     null
   ],
@@ -6175,7 +6175,7 @@
     "West Grey",
     null,
     null,
-    null,
+    "2021-01-10",
     null,
     null
   ],
@@ -6319,7 +6319,7 @@
     "Grey Highlands",
     null,
     null,
-    null,
+    "2021-01-10",
     null,
     null
   ],
@@ -6439,7 +6439,7 @@
     "Blue Mountains",
     null,
     null,
-    null,
+    "2021-01-10",
     null,
     null
   ],
@@ -6463,7 +6463,7 @@
     "Huron-Kinloss",
     null,
     null,
-    null,
+    "2021-01-10",
     null,
     null
   ],
@@ -6559,7 +6559,7 @@
     "Meaford",
     null,
     null,
-    null,
+    "2021-01-10",
     null,
     null
   ],
@@ -6811,7 +6811,7 @@
     "Huron-Kinloss",
     null,
     null,
-    null,
+    "2021-01-10",
     null,
     null
   ],
@@ -6919,7 +6919,7 @@
     "Owen Sound",
     null,
     null,
-    null,
+    "2021-01-10",
     null,
     null
   ],
@@ -7061,6 +7061,78 @@
     "M",
     "50 to 59",
     "South Bruce",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    589,
+    "2021-01-09",
+    "M",
+    "50 to 59",
+    "Georgian Bluffs",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    590,
+    "2021-01-09",
+    "M",
+    "20 to 29",
+    "Meaford",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    591,
+    "2021-01-10",
+    "M",
+    "20 to 29",
+    "Arran-Elderslie",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    592,
+    "2021-01-10",
+    "M",
+    "40 to 49",
+    "Kincardine",
+    null,
+    null,
+    "2021-01-10",
+    null,
+    null
+  ],
+  [
+    593,
+    "2021-01-10",
+    "F",
+    "30 to 39",
+    "Owen Sound",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    594,
+    "2021-01-10",
+    "F",
+    "60 to 69",
+    "West Grey",
     null,
     null,
     null,
