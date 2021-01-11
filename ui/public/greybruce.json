@@ -21,7 +21,7 @@
     40,
     "2020-03-26",
     null,
-    "2021-01-10"
+    "2021-01-11"
   ],
   [
     2,
@@ -6151,7 +6151,7 @@
     "Blue Mountains",
     null,
     null,
-    null,
+    "2021-01-11",
     null,
     null
   ],
@@ -6163,7 +6163,7 @@
     "Hanover",
     null,
     null,
-    null,
+    "2021-01-11",
     null,
     null
   ],
@@ -6259,7 +6259,7 @@
     "West Grey",
     null,
     null,
-    null,
+    "2021-01-11",
     null,
     null
   ],
@@ -6271,7 +6271,7 @@
     "Brockton",
     null,
     null,
-    null,
+    "2021-01-11",
     null,
     null
   ],
@@ -6355,7 +6355,7 @@
     "South Bruce",
     null,
     null,
-    null,
+    "2021-01-11",
     null,
     null
   ],
@@ -6595,7 +6595,7 @@
     "Owen Sound",
     null,
     null,
-    null,
+    "2021-01-11",
     null,
     null
   ],
@@ -6607,7 +6607,7 @@
     "Owen Sound",
     null,
     null,
-    null,
+    "2021-01-11",
     null,
     null
   ],
@@ -6679,7 +6679,7 @@
     "Hanover",
     null,
     null,
-    null,
+    "2021-01-11",
     null,
     null
   ],
@@ -7133,6 +7133,114 @@
     "F",
     "60 to 69",
     "West Grey",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    595,
+    "2021-01-11",
+    "M",
+    "10 to 19",
+    "Meaford",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    596,
+    "2021-01-11",
+    "F",
+    "70 to 79",
+    "Kincardine",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    597,
+    "2021-01-11",
+    "F",
+    "10 to 19",
+    "Huron-Kinloss",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    598,
+    "2021-01-11",
+    "M",
+    "30 to 39",
+    "Owen Sound",
+    null,
+    null,
+    "2021-01-11",
+    null,
+    null
+  ],
+  [
+    599,
+    "2021-01-11",
+    "M",
+    "40 to 49",
+    "Grey Highlands",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    600,
+    "2021-01-11",
+    "M",
+    "30 to 39",
+    "South Bruce",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    601,
+    "2021-01-11",
+    "M",
+    "20 to 29",
+    "Arran-Elderslie",
+    null,
+    null,
+    "2021-01-11",
+    null,
+    null
+  ],
+  [
+    602,
+    "2021-01-11",
+    "F",
+    "20 to 29",
+    "Saugeen Shores",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    603,
+    "2021-01-11",
+    "F",
+    "50 to 59",
+    "Huron-Kinloss",
     null,
     null,
     null,
