@@ -21,7 +21,7 @@
     40,
     "2020-03-26",
     null,
-    "2021-01-11"
+    "2021-01-12"
   ],
   [
     2,
@@ -6283,7 +6283,7 @@
     "Brockton",
     null,
     null,
-    null,
+    "2021-01-12",
     null,
     null
   ],
@@ -6307,7 +6307,7 @@
     "Georgian Bluffs",
     null,
     null,
-    null,
+    "2021-01-12",
     null,
     null
   ],
@@ -6427,7 +6427,7 @@
     "Hanover",
     null,
     null,
-    null,
+    "2021-01-12",
     null,
     null
   ],
@@ -6871,7 +6871,7 @@
     "Blue Mountains",
     null,
     null,
-    null,
+    "2021-01-12",
     null,
     null
   ],
@@ -6883,7 +6883,7 @@
     "Blue Mountains",
     null,
     null,
-    null,
+    "2021-01-12",
     null,
     null
   ],
@@ -7207,7 +7207,7 @@
     "South Bruce",
     null,
     null,
-    null,
+    "2021-01-12",
     null,
     null
   ],
@@ -7244,6 +7244,78 @@
     null,
     null,
     null,
+    null,
+    null
+  ],
+  [
+    604,
+    "2021-01-12",
+    "M",
+    "20 to 29",
+    "Kincardine",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    605,
+    "2021-01-12",
+    "F",
+    "40 to 49",
+    "Southgate",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    606,
+    "2021-01-12",
+    "M",
+    "20 to 29",
+    "West Grey",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    607,
+    "2021-01-12",
+    "F",
+    "50 to 59",
+    "Hanover",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    608,
+    "2021-01-12",
+    "M",
+    "20 to 29",
+    "South Bruce",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    609,
+    "2021-01-12",
+    "F",
+    "20 to 29",
+    "Blue Mountains",
+    null,
+    null,
+    "2021-01-12",
     null,
     null
   ]
