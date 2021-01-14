@@ -21,7 +21,7 @@
     40,
     "2020-03-26",
     null,
-    "2021-01-13"
+    "2021-01-14"
   ],
   [
     2,
@@ -6067,7 +6067,7 @@
     "Neyaashiinigmiing",
     null,
     null,
-    null,
+    "2021-01-14",
     null,
     null
   ],
@@ -6331,7 +6331,7 @@
     "Southgate",
     null,
     null,
-    null,
+    "2021-01-14",
     null,
     null
   ],
@@ -6487,7 +6487,7 @@
     "Hanover",
     null,
     null,
-    null,
+    "2021-01-14",
     null,
     null
   ],
@@ -6535,7 +6535,7 @@
     "South Bruce",
     null,
     null,
-    null,
+    "2021-01-14",
     null,
     null
   ],
@@ -6571,7 +6571,7 @@
     "West Grey",
     null,
     null,
-    null,
+    "2021-01-14",
     null,
     null
   ],
@@ -6583,7 +6583,7 @@
     "West Grey",
     null,
     null,
-    null,
+    "2021-01-14",
     null,
     null
   ],
@@ -6763,7 +6763,7 @@
     "Grey Highlands",
     null,
     null,
-    null,
+    "2021-01-14",
     null,
     null
   ],
@@ -7051,7 +7051,7 @@
     "Southgate",
     null,
     null,
-    null,
+    "2021-01-14",
     null,
     null
   ],
@@ -7123,7 +7123,7 @@
     "Owen Sound",
     null,
     null,
-    null,
+    "2021-01-13",
     null,
     null
   ],
@@ -7476,11 +7476,107 @@
     null
   ],
   [
-    662,
+    623,
     "2021-01-13",
     "F",
     "50 to 59",
     "Southgate",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    624,
+    "2021-01-14",
+    "M",
+    "70 to 79",
+    "Brockton",
+    null,
+    null,
+    "2021-01-14",
+    null,
+    null
+  ],
+  [
+    625,
+    "2021-01-14",
+    "M",
+    "50 to 59",
+    "South Bruce",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    626,
+    "2021-01-14",
+    "F",
+    "40 to 49",
+    "Hanover",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    627,
+    "2021-01-14",
+    "M",
+    "50 to 59",
+    "Kincardine",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    628,
+    "2021-01-14",
+    "M",
+    "50 to 59",
+    "Southgate",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    629,
+    "2021-01-14",
+    "M",
+    "50 to 59",
+    "Huron-Kinloss",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    630,
+    "2021-01-14",
+    "F",
+    "10 to 19",
+    "Kincardine",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    631,
+    "2021-01-14",
+    "F",
+    "10 to 19",
+    "Saugeen Shores",
     null,
     null,
     null,
