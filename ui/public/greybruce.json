@@ -21,7 +21,7 @@
     40,
     "2020-03-26",
     null,
-    "2021-01-15"
+    "2021-01-16"
   ],
   [
     2,
@@ -6823,7 +6823,7 @@
     "Hanover",
     null,
     null,
-    null,
+    "2021-01-16",
     null,
     null
   ],
@@ -6931,7 +6931,7 @@
     "Hanover",
     null,
     null,
-    null,
+    "2021-01-16",
     null,
     null
   ],
@@ -6943,7 +6943,7 @@
     "Owen Sound",
     null,
     null,
-    null,
+    "2021-01-16",
     null,
     null
   ],
@@ -6955,7 +6955,7 @@
     "Owen Sound",
     null,
     null,
-    null,
+    "2021-01-16",
     null,
     null
   ],
@@ -6967,7 +6967,7 @@
     "Owen Sound",
     null,
     null,
-    null,
+    "2021-01-16",
     null,
     null
   ],
@@ -6979,7 +6979,7 @@
     "Owen Sound",
     null,
     null,
-    null,
+    "2021-01-16",
     null,
     null
   ],
@@ -6991,7 +6991,7 @@
     "Southgate",
     null,
     null,
-    null,
+    "2021-01-16",
     null,
     null
   ],
@@ -7084,10 +7084,10 @@
     "2021-01-09",
     "M",
     "20 to 29",
-    "Meaford",
+    "Meaford Owen Sound",
     null,
     null,
-    null,
+    "2021-01-16",
     null,
     null
   ],
@@ -7231,7 +7231,7 @@
     "Saugeen Shores",
     null,
     null,
-    null,
+    "2021-01-16",
     null,
     null
   ],
@@ -7500,30 +7500,6 @@
     null
   ],
   [
-    625,
-    "2021-01-14",
-    "M",
-    "50 to 59",
-    "South Bruce",
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  [
-    626,
-    "2021-01-14",
-    "F",
-    "40 to 49",
-    "Hanover",
-    null,
-    null,
-    "2021-01-15",
-    null,
-    null
-  ],
-  [
     627,
     "2021-01-14",
     "M",
@@ -7681,10 +7657,46 @@
   ],
   [
     640,
-    "2021-01-15",
+    "2021-01-16",
+    "M",
+    "70 to 79",
+    "South Bruce",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    641,
+    "2021-01-16",
+    "F",
+    "60 to 69",
+    "South Bruce",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    642,
+    "2021-01-16",
+    "M",
+    "10 to 19",
+    "Huron-Kinloss",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    644,
+    "2021-01-16",
     "M",
     "30 to 39",
-    "Southgate",
+    "Owen Sound",
     null,
     null,
     null,
