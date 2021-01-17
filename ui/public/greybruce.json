@@ -21,7 +21,7 @@
     40,
     "2020-03-26",
     null,
-    "2021-01-16"
+    "2021-01-17"
   ],
   [
     2,
@@ -6895,7 +6895,7 @@
     "Owen Sound",
     null,
     null,
-    null,
+    "2021-01-17",
     null,
     null
   ],
@@ -7075,7 +7075,7 @@
     "Georgian Bluffs",
     null,
     null,
-    null,
+    "2021-01-17",
     null,
     null
   ],
@@ -7099,7 +7099,7 @@
     "Arran-Elderslie",
     null,
     null,
-    null,
+    "2021-01-17",
     null,
     null
   ],
@@ -7159,7 +7159,7 @@
     "Kincardine",
     null,
     null,
-    null,
+    "2021-01-17",
     null,
     null
   ],
@@ -7267,7 +7267,7 @@
     "Southgate",
     null,
     null,
-    null,
+    "2021-01-17",
     null,
     null
   ],
@@ -7387,7 +7387,7 @@
     "South Bruce",
     null,
     null,
-    null,
+    "2021-01-17",
     null,
     null
   ],
@@ -7697,6 +7697,54 @@
     "M",
     "30 to 39",
     "Owen Sound",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    645,
+    "2021-01-17",
+    "F",
+    "60 to 69",
+    "Meaford",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    646,
+    "2021-01-17",
+    "M",
+    "60 to 69",
+    "Meaford",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    647,
+    "2021-01-17",
+    "F",
+    "30 to 39",
+    "Southgate",
+    null,
+    null,
+    "2021-01-17",
+    null,
+    null
+  ],
+  [
+    648,
+    "2021-01-17",
+    "M",
+    "50 to 59",
+    "Blue Mountains",
     null,
     null,
     null,
