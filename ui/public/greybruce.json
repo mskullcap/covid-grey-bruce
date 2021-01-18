@@ -21,7 +21,7 @@
     40,
     "2020-03-26",
     null,
-    "2021-01-17"
+    "2021-01-18"
   ],
   [
     2,
@@ -7063,7 +7063,7 @@
     "South Bruce",
     null,
     null,
-    null,
+    "2021-01-18",
     null,
     null
   ],
@@ -7147,7 +7147,7 @@
     "Meaford",
     null,
     null,
-    null,
+    "2021-01-18",
     null,
     null
   ],
@@ -7171,7 +7171,7 @@
     "Huron-Kinloss",
     null,
     null,
-    null,
+    "2021-01-18",
     null,
     null
   ],
@@ -7651,7 +7651,7 @@
     "South Bruce",
     null,
     null,
-    null,
+    "2021-01-18",
     null,
     null
   ],
@@ -7692,6 +7692,18 @@
     null
   ],
   [
+    643,
+    "2021-01-16",
+    "M",
+    "30 to 39",
+    "Owen Sound",
+    null,
+    null,
+    "2021-01-16",
+    null,
+    null
+  ],
+  [
     644,
     "2021-01-16",
     "M",
@@ -7723,7 +7735,7 @@
     "Meaford",
     null,
     null,
-    null,
+    "2021-01-18",
     null,
     null
   ],
@@ -7745,6 +7757,54 @@
     "M",
     "50 to 59",
     "Blue Mountains",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    649,
+    "2021-01-18",
+    "M",
+    "20 to 29",
+    "Hanover",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    650,
+    "2021-01-18",
+    "M",
+    "20 to 29",
+    "Grey Highlands",
+    null,
+    null,
+    "2021-01-18",
+    null,
+    null
+  ],
+  [
+    651,
+    "2021-01-18",
+    "M",
+    "50 to 59",
+    "Brockton",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    652,
+    "2021-01-18",
+    "F",
+    "50 to 59",
+    "West Grey",
     null,
     null,
     null,
