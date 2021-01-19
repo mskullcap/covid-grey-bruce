@@ -21,7 +21,7 @@
     40,
     "2020-03-26",
     null,
-    "2021-01-18"
+    "2021-01-19"
   ],
   [
     2,
@@ -7303,7 +7303,7 @@
     "South Bruce",
     null,
     null,
-    null,
+    "2021-01-19",
     null,
     null
   ],
@@ -7351,7 +7351,7 @@
     "Kincardine",
     null,
     null,
-    null,
+    "2021-01-19",
     null,
     null
   ],
@@ -7375,7 +7375,7 @@
     "South Bruce",
     null,
     null,
-    null,
+    "2021-01-19",
     null,
     null
   ],
@@ -7531,7 +7531,7 @@
     "Huron-Kinloss",
     null,
     null,
-    null,
+    "2021-01-19",
     null,
     null
   ],
@@ -7699,7 +7699,7 @@
     "Owen Sound",
     null,
     null,
-    "2021-01-16",
+    "2021-01-19",
     null,
     null
   ],
@@ -7805,6 +7805,18 @@
     "F",
     "50 to 59",
     "West Grey",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    653,
+    "2021-01-19",
+    "F",
+    "70 to 79",
+    "Blue Mountains",
     null,
     null,
     null,
