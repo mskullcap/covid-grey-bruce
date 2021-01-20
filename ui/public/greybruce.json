@@ -21,7 +21,7 @@
     40,
     "2020-03-26",
     null,
-    "2021-01-19"
+    "2021-01-20"
   ],
   [
     2,
@@ -7327,7 +7327,7 @@
     "South Bruce",
     null,
     null,
-    null,
+    "2021-01-20",
     null,
     null
   ],
@@ -7339,7 +7339,7 @@
     "South Bruce",
     null,
     null,
-    null,
+    "2021-01-20",
     null,
     null
   ],
@@ -7363,7 +7363,7 @@
     "West Grey",
     null,
     null,
-    null,
+    "2021-01-20",
     null,
     null
   ],
@@ -7423,7 +7423,7 @@
     "South Bruce",
     null,
     null,
-    null,
+    "2021-01-20",
     null,
     null
   ],
@@ -7483,7 +7483,7 @@
     "Southgate",
     null,
     null,
-    null,
+    "2021-01-20",
     null,
     null
   ],
@@ -7519,7 +7519,7 @@
     "Southgate",
     null,
     null,
-    null,
+    "2021-01-20",
     null,
     null
   ],
@@ -7817,6 +7817,66 @@
     "F",
     "70 to 79",
     "Blue Mountains",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    654,
+    "2021-01-20",
+    "F",
+    "20 to 29",
+    "Owen Sound",
+    null,
+    null,
+    "2021-01-20",
+    null,
+    null
+  ],
+  [
+    655,
+    "2021-01-20",
+    "F",
+    "80 and over",
+    "Owen Sound",
+    null,
+    null,
+    "2021-01-20",
+    null,
+    null
+  ],
+  [
+    656,
+    "2021-01-20",
+    "M",
+    "60 to 69",
+    "Kincardine",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    657,
+    "2021-01-20",
+    "F",
+    "40 to 49",
+    "Grey Highlands",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    658,
+    "2021-01-20",
+    "M",
+    "60 to 69",
+    "Grey Highlands",
     null,
     null,
     null,
