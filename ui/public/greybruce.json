@@ -21,7 +21,7 @@
     40,
     "2020-03-26",
     null,
-    "2021-01-20"
+    "2021-01-21"
   ],
   [
     2,
@@ -7459,7 +7459,7 @@
     "Southgate",
     null,
     null,
-    null,
+    "2021-01-21",
     null,
     null
   ],
@@ -7471,7 +7471,7 @@
     "Brockton",
     null,
     null,
-    null,
+    "2021-01-21",
     null,
     null
   ],
@@ -7877,6 +7877,66 @@
     "M",
     "60 to 69",
     "Grey Highlands",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    659,
+    "2021-01-21",
+    "F",
+    "40 to 49",
+    "Saugeen Shores",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    660,
+    "2021-01-21",
+    "M",
+    "60 to 69",
+    "Arran-Elderslie",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    661,
+    "2021-01-21",
+    "F",
+    "60 to 69",
+    "Kincardine",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    662,
+    "2021-01-21",
+    "M",
+    "50 to 59",
+    "West Grey",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    663,
+    "2021-01-21",
+    "F",
+    "20 to 29",
+    "Chatsworth",
     null,
     null,
     null,
