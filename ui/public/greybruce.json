@@ -21,7 +21,7 @@
     40,
     "2020-03-26",
     null,
-    "2021-01-21"
+    "2021-01-22"
   ],
   [
     2,
@@ -7399,7 +7399,7 @@
     "Brockton",
     null,
     null,
-    null,
+    "2021-01-22",
     null,
     null
   ],
@@ -7435,7 +7435,7 @@
     "Brockton",
     null,
     null,
-    null,
+    "2021-01-22",
     null,
     null
   ],
@@ -7759,7 +7759,7 @@
     "Blue Mountains",
     null,
     null,
-    null,
+    "2021-01-22",
     null,
     null
   ],
@@ -7937,6 +7937,54 @@
     "F",
     "20 to 29",
     "Chatsworth",
+    null,
+    null,
+    "2021-01-22",
+    null,
+    null
+  ],
+  [
+    664,
+    "2021-01-22",
+    "F",
+    "60 to 69",
+    "West Grey",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    665,
+    "2021-01-22",
+    "F",
+    "70 to 79",
+    "Kincardine",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    666,
+    "2021-01-22",
+    "F",
+    "80 and over",
+    "Kincardine",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    667,
+    "2021-01-22",
+    "F",
+    "70 to 79",
+    "Kincardine",
     null,
     null,
     null,
