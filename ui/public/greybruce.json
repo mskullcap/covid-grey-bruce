@@ -21,7 +21,7 @@
     40,
     "2020-03-26",
     null,
-    "2021-01-22"
+    "2021-01-23"
   ],
   [
     2,
@@ -7543,7 +7543,7 @@
     "Kincardine",
     null,
     null,
-    null,
+    "2021-01-23",
     null,
     null
   ],
@@ -7591,7 +7591,7 @@
     "Brockton",
     null,
     null,
-    null,
+    "2021-01-23",
     null,
     null
   ],
@@ -7915,7 +7915,7 @@
     "Kincardine",
     null,
     null,
-    null,
+    "2021-01-23",
     null,
     null
   ],
@@ -7985,6 +7985,66 @@
     "F",
     "70 to 79",
     "Kincardine",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    668,
+    "2021-01-23",
+    "M",
+    "10 to 19",
+    "Huron-Kinloss",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    669,
+    "2021-01-23",
+    "F",
+    "30 to 39",
+    "Hanover",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    670,
+    "2021-01-23",
+    "M",
+    "40 to 49",
+    "West Grey",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    671,
+    "2021-01-23",
+    "M",
+    "30 to 39",
+    "Saugeen Shores",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    672,
+    "2021-01-23",
+    "M",
+    "50 to 59",
+    "Brockton",
     null,
     null,
     null,
