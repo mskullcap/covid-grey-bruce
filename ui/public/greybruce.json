@@ -21,7 +21,7 @@
     40,
     "2020-03-26",
     null,
-    "2021-01-23"
+    "2021-01-24"
   ],
   [
     2,
@@ -6235,7 +6235,7 @@
     "Huron-Kinloss",
     null,
     null,
-    null,
+    "2021-01-24",
     null,
     null
   ],
@@ -6403,7 +6403,7 @@
     "Hanover",
     null,
     null,
-    null,
+    "2021-01-24",
     null,
     null
   ],
@@ -6547,7 +6547,7 @@
     "Huron-Kinloss",
     null,
     null,
-    null,
+    "2021-01-24",
     null,
     null
   ],
@@ -7279,7 +7279,7 @@
     "West Grey",
     null,
     null,
-    null,
+    "2021-01-24",
     null,
     null
   ],
@@ -7411,7 +7411,7 @@
     "Kincardine",
     null,
     null,
-    null,
+    "2021-01-24",
     null,
     null
   ],
@@ -7507,7 +7507,7 @@
     "Kincardine",
     null,
     null,
-    null,
+    "2021-01-24",
     null,
     null
   ],
@@ -7603,7 +7603,7 @@
     "Hanover",
     null,
     null,
-    null,
+    "2021-01-24",
     null,
     null
   ],
@@ -7639,7 +7639,7 @@
     "Brockton",
     null,
     null,
-    null,
+    "2021-01-24",
     null,
     null
   ],
@@ -7663,7 +7663,7 @@
     "South Bruce",
     null,
     null,
-    null,
+    "2021-01-24",
     null,
     null
   ],
@@ -7675,7 +7675,7 @@
     "South Bruce",
     null,
     null,
-    null,
+    "2021-01-24",
     null,
     null
   ],
@@ -7687,7 +7687,7 @@
     "Huron-Kinloss",
     null,
     null,
-    null,
+    "2021-01-24",
     null,
     null
   ],
@@ -7711,7 +7711,7 @@
     "Owen Sound",
     null,
     null,
-    null,
+    "2021-01-24",
     null,
     null
   ],
@@ -7723,7 +7723,7 @@
     "Meaford",
     null,
     null,
-    null,
+    "2021-01-24",
     null,
     null
   ],
@@ -8045,6 +8045,30 @@
     "M",
     "50 to 59",
     "Brockton",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    673,
+    "2021-01-24",
+    "M",
+    "50 to 59",
+    "Hanover",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    674,
+    "2021-01-24",
+    "M",
+    "30 to 39",
+    "Owen Sound",
     null,
     null,
     null,
