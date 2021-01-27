@@ -3,7 +3,7 @@ const fs = require("fs/promises")
 const fetch = require("node-fetch");
 
 async function loadSpreadsheet(filename){
-  const rows = await xlsxFile(filename);
+  const rows = await xlsxFile(filename, { dateFormat: 'YYYY-MM-DD' });
   const headings = rows.shift();
   const result = [];
   rows.forEach((row, i) => {
@@ -18,9 +18,10 @@ async function loadSpreadsheet(filename){
       row[4] = "Kincardine";
     }
     if( row[2] === null ) row[2] = "M";
+    row[1] = row[1].getFullYear() + "-" + (row[1].getMonth()+1) + "-" + (row[1].getDate() < 10 ? "0" + row[1].getDate() : row[1].getDate());
+    if( row[7] != null ) row[7] = row[7].getFullYear() + "-" + (row[7].getMonth()+1) + "-" + (row[7].getDate() < 10 ? "0" + row[7].getDate() : row[7].getDate());
+    if( row[9] != null ) row[9] = row[9].getFullYear() + "-" + (row[9].getMonth()+1) + "-" + (row[9].getDate() < 10 ? "0" + row[9].getDate() : row[9].getDate());
     row[2] = row[2].toUpperCase();
-    row[1] = row[1].getFullYear() + "-" + row[1].getMonth()+1 + "-" + row[1].getDate();
-    if( row[7] !== null ) row[7] = row[7].getFullYear() + "-" + row[7].getMonth()+1 + "-" + row[7].getDate();
     result.push(row);
   })
   result.unshift(headings);
