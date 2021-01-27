@@ -17,6 +17,7 @@ async function loadSpreadsheet(filename){
     } else if( row[4] === "Kincardines" ){
       row[4] = "Kincardine";
     }
+    if( row[2] === null ) row[2] = "M";
     row[2] = row[2].toUpperCase();
     result.push(row);
   })
