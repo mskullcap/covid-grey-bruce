@@ -19,14 +19,23 @@ async function loadSpreadsheet(filename){
       row[4] = "Kincardine";
     }
     if( row[2] === null ) row[2] = "M";
-    row[1] = row[1].getFullYear() + "-" + (row[1].getMonth()+1) + "-" + (row[1].getDate() < 10 ? "0" + row[1].getDate() : row[1].getDate());
-    if( row[7] != null ) row[7] = row[7].getFullYear() + "-" + (row[7].getMonth()+1) + "-" + (row[7].getDate() < 10 ? "0" + row[7].getDate() : row[7].getDate());
-    if( row[9] != null ) row[9] = row[9].getFullYear() + "-" + (row[9].getMonth()+1) + "-" + (row[9].getDate() < 10 ? "0" + row[9].getDate() : row[9].getDate());
+    row[1] = formatDate(row[1]);
+    row[7] = formatDate(row[7]);
+    row[8] = formatDate(row[8]);
     row[2] = row[2].toUpperCase();
     result.push(row);
   })
   result.unshift(headings);
   return result;
+}
+
+function formatDate(d){
+    if( d == null ) return null;
+    let m = d.getMonth() + 1;
+    let day = d.getDate();
+    if( m < 10 ) m = "0" + m;
+    if( day < 10 ) day = "0" + day;
+    return d.getFullYear() + "-" + m + "-" + day;
 }
 
 (async () => {
