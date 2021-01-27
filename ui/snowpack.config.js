@@ -7,25 +7,7 @@ module.exports = {
   plugins: [
     '@snowpack/plugin-svelte'
   ],
-  install: [
-    /* ... */
-  ],
-  installOptions: {
-    /* ... */
-  },
-  devOptions: {
-    /* ... */
-  },
-  buildOptions: {
-    /* ... */
-  },
-  proxy: {
-    /* ... */
-  },
-  alias: {
-    /* ... */
-  },
-  experiments: {
+  packageOptions: {
     // source: "skypack"
     source: "local",
     optimize: {
