@@ -20,6 +20,7 @@ async function loadSpreadsheet(filename){
     if( row[2] === null ) row[2] = "M";
     row[2] = row[2].toUpperCase();
     row[1] = row[1].getFullYear() + "-" + row[1].getMonth()+1 + "-" + row[1].getDate();
+    if( row[7] !== null ) row[7] = row[7].getFullYear() + "-" + row[7].getMonth()+1 + "-" + row[7].getDate();
     result.push(row);
   })
   result.unshift(headings);
