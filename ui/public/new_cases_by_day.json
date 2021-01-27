@@ -9,7 +9,12 @@
     "contains": "padding"
   },
   "data": {
-    "values": "{{values}}"
+    "values": "{{values}}",
+    "format": {
+      "parse": {
+        "Date": "date:'%Y-%m-%d'"
+      }
+    }
   },
   "mark": {
     "type": "bar"
