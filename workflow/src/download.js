@@ -3,9 +3,10 @@ const fs = require("fs/promises")
 const fetch = require("node-fetch");
 
 async function loadSpreadsheet(filename){
-  const rows = await xlsxFile(filename, { dateFormat: 'YYYY-MM-DD' });
+  let rows = await xlsxFile(filename, { dateFormat: 'YYYY-MM-DD' });
   const headings = rows.shift();
   const result = [];
+  rows = rows.sort((a,b) => (a[1].getTime() > b[1].getTime()) ? 1 : -1);
   rows.forEach((row, i) => {
     if( row[0] === null ) return;
     if( row[4] === null ) return;
