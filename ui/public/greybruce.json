@@ -33,7 +33,7 @@
     82,
     "2020-03-26",
     null,
-    "2021-02-15T12:00:00.000Z"
+    "2021-02-16T12:00:00.000Z"
   ],
   [
     3,
@@ -7867,7 +7867,7 @@
     "Huron-Kinloss",
     null,
     null,
-    null,
+    "2021-02-12",
     null,
     null
   ],
@@ -7951,7 +7951,7 @@
     "Southgate",
     null,
     null,
-    null,
+    "2021-02-15",
     null,
     null
   ],
@@ -8083,7 +8083,7 @@
     "West Grey",
     null,
     null,
-    null,
+    "2021-02-16",
     null,
     null
   ],
@@ -8162,6 +8162,18 @@
   [
     682,
     "2021-02-13",
+    "M",
+    "20 to 29",
+    "Saugeen Shores",
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    681,
+    "2021-02-13",
     "F",
     "70 to 79",
     "Owen Sound",
@@ -8172,7 +8184,7 @@
     null
   ],
   [
-    681,
+    680,
     "2021-02-13",
     "F",
     "20 to 29",
@@ -8184,23 +8196,11 @@
     null
   ],
   [
-    680,
+    679,
     "2021-02-13",
     "M",
     "70 to 79",
     "Owen Sound",
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  [
-    679,
-    "2021-02-13",
-    "F",
-    "Under 10",
-    "Brockton",
     null,
     null,
     null,
