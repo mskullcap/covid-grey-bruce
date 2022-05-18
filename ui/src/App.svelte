@@ -96,13 +96,13 @@
 
     newCases = parse(newCasesSpec, {
       "{{startDate}}": c19.startDate,
-      "{{endDate}}": dateFormat(new Date(), "yyyy-mm-dd"),
+      "{{endDate}}": c19.endDate,
       "{{maxCases}}": c19.maxPerDay() + 1,
       "{{values}}": data
     });
 
     bubble = parse(bubbleSpec, {
-      "{{dateDomain}}": [new Date().getTime() - days * 24 * 60 * 60 * 1000, new Date().getTime()],
+      "{{dateDomain}}": [c19.startDate, c19.endDate],
       "{{municipalityDomain}}": [0.8, c19.maxPerDayGroupedBy("Municipality")],
       "{{test}}": `"${m}" != "All" && datum['Municipality'] != "${m}"`,
       "{{values}}": c19.dataAsJson()
@@ -166,6 +166,7 @@
 
   {#if c19}
     <h4 class="mv1">Updated: {c19.endDate}</h4>
+    <h4 class="dark-red">Note: As of January 18, 2022, The Grey-Bruce Health Unit no longer track cases.</h4>
   {/if}
 
   {#if c19}
